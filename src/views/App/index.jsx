@@ -3,7 +3,7 @@ import injectSheet from "react-jss";
 import PropTypes from "prop-types";
 import { Row, Col } from "antd";
 import Header from "./../../components/Header";
-import NOSActions from "./../../components/NOSActions";
+// import NOSActions from "./../../components/NOSActions";
 import Feeds from "./../../components/Feeds";
 import Prices from "./../../components/Price/Prices";
 
