@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "build": "parcel build src/index.html",
+    "deploy": "gh-pages -d dist/",
     "precommit": "yarn lint",
     "lint": "eslint 'src/**/*.js*'",
     "start": "parcel src/index.html --no-hmr",
@@ -37,6 +38,7 @@
     "antd": "^3.7.3",
     "babel-polyfill": "6.26.0",
     "classnames": "^2.2.6",
+    "gh-pages": "^1.2.0",
     "jss": "9.8.1",
     "jss-camel-case": "6.1.0",
     "jss-global": "3.0.0",
