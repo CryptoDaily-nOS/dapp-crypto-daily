@@ -9,7 +9,7 @@ const styles = {
 		position: "relative",
 		height: "50px",
 		marginBottom: "24px",
-		zIndex: 999
+		zIndex: 9
 	},
 	header: {
 		position: "fixed",
